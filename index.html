@@ -164,17 +164,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:6000;
   display:inline-block;
   transform-origin:center;   
   color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.05);white-space:nowrap;
-  animation:glow 6s ease-in-out infinite,
-            bcRotate 90s linear infinite;}
+  animation:glow 6s ease-in-out infinite
 @keyframes glow{0%,100%{-webkit-text-stroke-color:rgba(255,255,255,.05)}50%{-webkit-text-stroke-color:rgba(255,255,255,.1)}}
-@keyframes bcRotate{
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(360deg);
-    }
-}
 .hero-content{position:absolute;bottom:60px;left:40px;z-index:10}
 .hero-season{font-family:'VT323',monospace;font-size:16px;letter-spacing:.3em;
   text-transform:uppercase;color:var(--gray);margin-bottom:10px}
